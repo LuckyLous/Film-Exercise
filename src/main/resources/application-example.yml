@@ -1,0 +1,18 @@
+server:
+    port: 8080
+    context-path: /
+
+spring:
+    datasource:
+      driver-class-name: 
+      url: 
+      username: 
+      password: 
+    jpa:
+      hibernate:
+        ddl-auto: update
+      show-sql: true
+    thymeleaf:
+      cache: false
+      
+imageFilePath: 
